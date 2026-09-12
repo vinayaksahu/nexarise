@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="NexaRise MLM Website & Software — Centralized or Decentralized Blockchain solution. Ganesh Chaturthi Special Offer ₹6,999.">
+<title>NexaRise | MLM Website & Software</title>
+<style>
+:root{
+  --bg:#020b18;--panel:#071a31;--panel2:#0b2544;--blue:#08aef0;
+  --cyan:#20d9ff;--green:#17d978;--gold:#ffd33d;--orange:#ff9f16;
+  --white:#f7fbff;--muted:#b8c8d9;--red:#ff3d3d;--border:rgba(40,196,255,.32);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:
+ radial-gradient(circle at 50% 10%,rgba(0,166,255,.18),transparent 28%),
+ radial-gradient(circle at 10% 70%,rgba(0,88,255,.12),transparent 25%),
+ var(--bg);color:var(--white);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.45}
+a{text-decoration:none;color:inherit}
+.container{width:min(1180px,92%);margin:auto}
+header{padding:18px 0;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;background:rgba(2,11,24,.88);backdrop-filter:blur(14px);z-index:20}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;font-weight:900;font-size:30px;letter-spacing:-1.5px}
+.logo-mark{width:43px;height:43px;border:2px solid var(--cyan);display:grid;place-items:center;transform:skew(-10deg);background:linear-gradient(135deg,#0c4e86,#00bdf5);clip-path:polygon(0 0,72% 0,100% 28%,100% 100%,28% 100%,0 72%)}
+.logo-mark span{font-size:25px;font-weight:1000;color:white;transform:skew(10deg)}
+.logo b{color:#18b9f4}.logo em{font-style:normal;color:white}
+.navlinks{display:flex;gap:24px;color:#dcecff;font-weight:700;font-size:14px}
+.navlinks a:hover{color:var(--cyan)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 20px;border-radius:10px;font-weight:900;border:1px solid rgba(255,255,255,.16);background:linear-gradient(135deg,#079eea,#0871df);box-shadow:0 10px 30px rgba(0,145,255,.2)}
+.hero{padding:72px 0 45px;text-align:center;position:relative;overflow:hidden}
+.kicker{display:inline-block;color:#07111d;background:linear-gradient(90deg,var(--gold),#fff0a0,var(--gold));padding:8px 20px;border-radius:999px;font-weight:1000;letter-spacing:1.2px;text-transform:uppercase}
+h1{font-size:clamp(44px,7vw,82px);line-height:.95;margin:20px 0 10px;font-weight:1000;letter-spacing:-4px}
+.gradient{background:linear-gradient(90deg,#fff,var(--cyan),#fff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero h2{font-size:clamp(22px,3vw,36px);margin:0;font-weight:900}
+.hero h2 .green{color:#18e37c}.hero p{max-width:780px;margin:20px auto;color:var(--muted);font-size:18px}
+.offer{display:inline-flex;align-items:center;gap:18px;margin:28px auto 0;padding:12px 25px;border:2px solid #ffcc32;border-radius:16px;background:linear-gradient(135deg,#76100e,#e51d18,#8e0808);box-shadow:0 0 40px rgba(255,70,0,.2)}
+.old{text-decoration:line-through;color:#ddd;font-size:22px;font-weight:800}.price{font-size:54px;font-weight:1000;color:white;line-height:1}.only{color:#111;background:var(--gold);padding:5px 10px;border-radius:7px;font-weight:1000}
+.hero-actions{margin-top:28px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn.secondary{background:transparent;border-color:var(--border);box-shadow:none}
+.section{padding:48px 0}.section-title{text-align:center;font-size:34px;margin:0 0 10px;font-weight:1000}.section-sub{text-align:center;color:var(--muted);margin:0 auto 28px;max-width:760px}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.card{background:linear-gradient(145deg,rgba(8,35,63,.96),rgba(3,16,32,.96));border:1px solid var(--border);border-radius:18px;padding:25px;box-shadow:0 18px 55px rgba(0,0,0,.28)}
+.card.central{border-color:#168eff}.card.decentral{border-color:#13d878}
+.card h3{margin:0 -25px 20px;padding:16px 20px;text-align:center;border-radius:16px 16px 0 0;font-size:23px}
+.central h3{background:linear-gradient(90deg,#076ee7,#0b9eff)}.decentral h3{background:linear-gradient(90deg,#0a9d50,#10d66d)}
+ul{list-style:none;margin:0;padding:0}.check-list li{display:flex;gap:10px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.07);color:#edf7ff;font-weight:650}.check{flex:0 0 23px;height:23px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:1000}.central .check{background:#168eff}.decentral .check{background:#12d96d;color:#06170d}
+.features{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:25px}.feature{padding:18px 10px;text-align:center;border-radius:14px;background:rgba(7,28,51,.8);border:1px solid rgba(255,255,255,.08);font-weight:800;font-size:14px}.icon{font-size:28px;margin-bottom:8px}
+.included{margin-top:24px;border:1px solid #e2b820;border-radius:18px;padding:25px;background:linear-gradient(145deg,#102642,#07182c)}
+.included h3{margin:0 0 18px;color:#ffd52f;text-align:center;font-size:22px}.included-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.included-grid div{padding:11px 12px;background:rgba(255,255,255,.035);border-radius:9px;font-weight:700}.included-grid span{color:#ffd42c;margin-right:6px}
+.notice{margin-top:12px;text-align:center;color:#ffce35;font-size:13px;font-weight:800}
+.excluded{margin-top:20px;border:1px solid rgba(255,80,80,.6);border-radius:18px;padding:24px;background:linear-gradient(145deg,#33151a,#170c14)}.excluded h3{margin:0 0 16px;color:#ff8888;text-align:center}.excluded-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.excluded-grid div{font-weight:700;color:#ffe9e9;font-size:14px}.x{color:#ff4646;font-size:20px;margin-right:5px}
+.free{margin-top:25px;padding:25px;border:1px solid rgba(255,211,61,.55);border-radius:18px;background:linear-gradient(135deg,rgba(255,180,0,.12),rgba(0,180,255,.08));text-align:center}.free h3{margin:0;color:var(--gold);font-size:26px}.free p{margin:7px 0;color:#d7e8f8}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:stretch}.contact-box{padding:24px;border:1px solid var(--border);border-radius:16px;background:rgba(7,28,51,.8)}.contact-box h3{margin:0 0 8px;color:var(--cyan)}.contact-box a{font-size:24px;font-weight:1000}
+footer{border-top:1px solid rgba(255,255,255,.08);padding:28px 0;color:#91a8bf;text-align:center}.tagline{color:var(--gold);font-weight:900;letter-spacing:2px}
+@media(max-width:900px){.features{grid-template-columns:repeat(3,1fr)}.excluded-grid{grid-template-columns:repeat(2,1fr)}.included-grid{grid-template-columns:1fr 1fr}.navlinks{display:none}}
+@media(max-width:650px){.logo{font-size:25px}.hero{padding-top:48px}h1{letter-spacing:-2px}.offer{flex-wrap:wrap;justify-content:center}.price{font-size:45px}.compare,.contact{grid-template-columns:1fr}.features{grid-template-columns:repeat(2,1fr)}.included-grid,.excluded-grid{grid-template-columns:1fr}.section{padding:34px 0}.card{padding:20px}.card h3{margin-left:-20px;margin-right:-20px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo" href="#">
+      <div class="logo-mark"><span>N</span></div>
+      <div><em>Nexa</em><b>Rise</b></div>
+    </a>
+    <nav class="navlinks">
+      <a href="#plans">Plans</a><a href="#features">Features</a><a href="#included">Offer</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn" href="#contact">Get Started</a>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container">
+    <div class="kicker">Ganesh Chaturthi • Limited Time Offer</div>
+    <h1><span class="gradient">MLM BUSINESS</span><br>WEBSITE & SOFTWARE</h1>
+    <h2><span style="color:#17bdf4">Centralized</span> or <span class="green">Decentralized</span> — Your Choice</h2>
+    <p>Build, manage and grow your network business with a powerful MLM software solution — including blockchain-ready decentralized architecture.</p>
+    <div class="offer"><span class="old">₹12,999</span><span class="price">₹6,999</span><span class="only">ONLY</span></div>
+    <div class="hero-actions">
+      <a class="btn" href="https://wa.me/917000297079?text=Hi%20NexaRise%2C%20I%20am%20interested%20in%20the%20MLM%20software%20offer." target="_blank">WhatsApp Now</a>
+      <a class="btn secondary" href="https://www.nexarise.com" target="_blank">Visit www.nexarise.com</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="plans">
+<div class="container">
+  <h2 class="section-title">Choose Your MLM Architecture</h2>
+  <p class="section-sub">The same business vision can be implemented with a traditional centralized system or a blockchain-based decentralized system.</p>
+  <div class="compare">
+    <article class="card central">
+      <h3>CENTRALIZED MLM PLAN</h3>
+      <ul class="check-list">
+        <li><span class="check">✓</span>Full MLM Features</li><li><span class="check">✓</span>Admin Control Panel</li><li><span class="check">✓</span>User & Settings Management</li><li><span class="check">✓</span>ROI, Level & Rewards</li><li><span class="check">✓</span>E-Pin & Wallet System</li><li><span class="check">✓</span>Income & Business Reports</li><li><span class="check">✓</span>Auto Pool & Match System</li><li><span class="check">✓</span>Mobile Responsive Design</li><li><span class="check">✓</span>Secure & Reliable</li><li><span class="check">✓</span>Free Installation & Deployment</li><li><span class="check">✓</span>1 Year Technical Support</li>
+      </ul>
+    </article>
+    <article class="card decentral">
+      <h3>DECENTRALIZED MLM PLAN (BLOCKCHAIN)</h3>
+      <ul class="check-list">
+        <li><span class="check">✓</span>Smart Contract Based</li><li><span class="check">✓</span>Transparent & Tamper-Resistant</li><li><span class="check">✓</span>Investment on Blockchain</li><li><span class="check">✓</span>On-Chain ROI & Level Logic</li><li><span class="check">✓</span>On-Chain Wallet & P2P</li><li><span class="check">✓</span>Decentralized Transactions</li><li><span class="check">✓</span>Web3 Wallet Integration</li><li><span class="check">✓</span>Limited Administrative Controls</li><li><span class="check">✓</span>Mobile Responsive Design</li><li><span class="check">✓</span>Free Development Deployment*</li><li><span class="check">✓</span>1 Year Technical Support</li>
+      </ul>
+    </article>
+  </div>
+</div>
+</section>
+
+<section class="section" id="features">
+<div class="container">
+<h2 class="section-title">Core Features</h2>
+<div class="features">
+  <div class="feature"><div class="icon">👥</div>Binary MLM Plan</div>
+  <div class="feature"><div class="icon">🌳</div>Matrix MLM Plan</div>
+  <div class="feature"><div class="icon">📈</div>Level MLM Plan</div>
+  <div class="feature"><div class="icon">💰</div>ROI MLM Plan</div>
+  <div class="feature"><div class="icon">👛</div>E-Pin & Wallet</div>
+  <div class="feature"><div class="icon">⚙️</div>Admin Panel</div>
+  <div class="feature"><div class="icon">📊</div>Income Reports</div>
+  <div class="feature"><div class="icon">🔗</div>Blockchain Option</div>
+  <div class="feature"><div class="icon">📱</div>Mobile Responsive</div>
+  <div class="feature"><div class="icon">🎥</div>Zoom + Members Add</div>
+  <div class="feature"><div class="icon">✈️</div>Telegram Promotion</div>
+  <div class="feature"><div class="icon">▶️</div>YouTube Promotion</div>
+</div>
+</div>
+</section>
+
+<section class="section" id="included">
+<div class="container">
+  <div class="included">
+    <h3>WHAT'S INCLUDED IN ₹6,999 — DEVELOPER PRICE</h3>
+    <div class="included-grid">
+      <div><span>✓</span>Complete MLM Website & Software</div>
+      <div><span>✓</span>Centralized / Decentralized Option</div>
+      <div><span>✓</span>Free Installation & Deployment</div>
+      <div><span>✓</span>1 Year Hosting — FREE</div>
+      <div><span>✓</span>Domain Included up to ₹999</div>
+      <div><span>✓</span>Zoom Meeting Integration + Members Add</div>
+      <div><span>✓</span>Telegram Channel Promotion</div>
+      <div><span>✓</span>YouTube Video Promotion</div>
+      <div><span>✓</span>Basic Training / Guidance</div>
+      <div><span>✓</span>1 Year Technical Support</div>
+      <div><span>✓</span>Customization as per agreed scope</div>
+      <div><span>✓</span>Responsive Design</div>
+    </div>
+    <div class="notice">Domain above ₹999: extra amount is charged separately.</div>
+  </div>
+
+  <div class="free">
+    <h3>🎁 FREE — LIMITED TIME OFFER</h3>
+    <p>PDF Design + Posters + Banners for your business promotion.</p>
+    <p><strong>Business Plan PDF • Premium Posters • Social Media Banners • Marketing Creatives</strong></p>
+  </div>
+
+  <div class="excluded">
+    <h3>⚠ THIRD-PARTY / EXTERNAL EXPENSES — NOT INCLUDED</h3>
+    <div class="excluded-grid">
+      <div><span class="x">✕</span>Blockchain Mainnet Deployment / Gas Fees</div>
+      <div><span class="x">✕</span>Professional Smart-Contract Security Audit</div>
+      <div><span class="x">✕</span>Paid RPC / Blockchain Services, if required</div>
+      <div><span class="x">✕</span>Additional Domain Cost above ₹999</div>
+      <div><span class="x">✕</span>Any Other Third-Party / External Service Charges</div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section" id="contact">
+<div class="container">
+  <h2 class="section-title">Let's Build Your Network</h2>
+  <p class="section-sub">Discuss your MLM plan, centralized setup or blockchain-based decentralized requirements.</p>
+  <div class="contact">
+    <div class="contact-box">
+      <h3>📞 Call / WhatsApp</h3>
+      <a href="tel:+917000297079">7000297079</a><br>
+      <a href="tel:+916260552217">6260552217</a>
+    </div>
+    <div class="contact-box">
+      <h3>🌐 Website</h3>
+      <a href="https://www.nexarise.com" target="_blank">www.nexarise.com</a>
+      <p style="color:var(--muted);margin-bottom:0">People • Plan • Prosper</p>
+    </div>
+  </div>
+</div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="tagline">SECURE • SCALABLE • GLOBAL • PEOPLE • PROSPER</div>
+    <p>© 2026 NexaRise. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
